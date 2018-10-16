@@ -4,7 +4,7 @@ apt-cyg
 apt-cyg is a Cygwin package manager. It includes a command-line installer for
 Cygwin which cooperates with Cygwin Setup and uses the same repository.
 
-[github.com/transcode-open/apt-cyg][1]
+Forked from [github.com/transcode-open/apt-cyg][1]
 
 [1]:https://github.com/transcode-open/apt-cyg
 
@@ -79,3 +79,10 @@ Example use of apt-cyg:
 
     apt-cyg install nano
     
+
+Changelog (@rahuldottech)
+-----------
+These are the changes which I've made to transcode-open's version:
+
+1. Nothing till now, really, except that I updated the readme with the alternate install method and removed the rawgit link since the service is shutting down.
+
