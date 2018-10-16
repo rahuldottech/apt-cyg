@@ -65,9 +65,17 @@ Quick start
 
 apt-cyg is a simple script. To install:
 
-    lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+    lynx -source https://raw.githubusercontent.com/rahuldottech/apt-cyg/master/apt-cyg > apt-cyg
     install apt-cyg /bin
+    rm apt-cyg
+
+Alternatively, if you don't have lynx installed:
+    
+    wget https://raw.githubusercontent.com/rahuldottech/apt-cyg/master/apt-cyg -o apt-cyg
+    install apt-cyg /bin
+    rm apt-cyg
 
 Example use of apt-cyg:
 
     apt-cyg install nano
+    
